@@ -3,10 +3,10 @@
     <div class="footer-content position-relative">
       <div class="container">
         <div class="row">
-
-          <div class="col-lg-4 col-md-6">
+          <h3>LRFDT</h3>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
             <div class="footer-info">
-              <h3>LRFDT</h3>
+              
               <p>
                 P.O.Box 101,Lugazi <br>
                 +256 704 372685<br><br>
@@ -22,7 +22,7 @@
             </div>
           </div><!-- End footer info column-->
 
-          <div class="col-lg-2 col-md-3 footer-links">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><a href="#">Home</a></li>
@@ -33,7 +33,7 @@
             </ul>
           </div><!-- End footer links column-->
 
-          <div class="col-lg-2 col-md-3 footer-links">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 footer-links">
             <h4>Our Services</h4>
             <ul>
               <li><a href="#">Agriculture</a></li>
@@ -44,7 +44,7 @@
             </ul>
           </div><!-- End footer links column-->
 
-          <div class="col-lg-2 col-md-3 footer-links">
+          <div class="col-lg-3 col-md-3 col-sm-6 footer-links">
             <h4> Our Projects</h4>
             <ul>
               <li><a href="#">Agriculture</a></li>
@@ -69,7 +69,7 @@
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          {{-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> --}}
         </div>
       </div>
     </div>
