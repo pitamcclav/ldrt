@@ -1,55 +1,55 @@
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
 
-  const appContainer = document.getElementById('main');
-const preloader = document.querySelector('#preloader');
+//   const appContainer = document.getElementById('main');
+// const preloader = document.querySelector('#preloader');
 
-document.addEventListener('click', function (event) {
-  const target = event.target.closest('a[data-ajax]');
+// document.addEventListener('click', function (event) {
+//   const target = event.target.closest('a[data-ajax]');
 
-  if (target) {
-    event.preventDefault();
+//   if (target) {
+//     event.preventDefault();
 
-    // Show preloader
-    preloader.style.display = 'block';
+//     // Show preloader
+//     preloader.style.display = 'block';
 
-    const url = target.getAttribute('href');
+//     const url = target.getAttribute('href');
 
-    fetch(url)
-      .then((response) => response.text())
-      .then((html) => {
-        appContainer.innerHTML = html;
-        history.pushState(null, null, url);
-      })
-      .catch((error) => {
-        console.error('Error fetching content:', error);
-      })
-      .finally(() => {
-        // Hide preloader after content is loaded (success or failure)
-        preloader.style.display = 'none';
-      });
-  }
-});
+//     fetch(url)
+//       .then((response) => response.text())
+//       .then((html) => {
+//         appContainer.innerHTML = html;
+//         history.pushState(null, null, url);
+//       })
+//       .catch((error) => {
+//         console.error('Error fetching content:', error);
+//       })
+//       .finally(() => {
+//         // Hide preloader after content is loaded (success or failure)
+//         preloader.style.display = 'none';
+//       });
+//   }
+// });
 
-window.addEventListener('popstate', function () {
-  const url = location.pathname;
+// window.addEventListener('popstate', function () {
+//   const url = location.pathname;
 
-  // Show preloader
-  preloader.style.display = 'block';
+//   // Show preloader
+//   preloader.style.display = 'block';
 
-  fetch(url)
-    .then((response) => response.text())
-    .then((html) => {
-      appContainer.innerHTML = html;
-    })
-    .catch((error) => {
-      console.error('Error fetching content:', error);
-    })
-    .finally(() => {
-      // Hide preloader after content is loaded (success or failure)
-      preloader.style.display = 'none';
-    });
-});
+//   fetch(url)
+//     .then((response) => response.text())
+//     .then((html) => {
+//       appContainer.innerHTML = html;
+//     })
+//     .catch((error) => {
+//       console.error('Error fetching content:', error);
+//     })
+//     .finally(() => {
+//       // Hide preloader after content is loaded (success or failure)
+//       preloader.style.display = 'none';
+//     });
+// });
 
 
 
