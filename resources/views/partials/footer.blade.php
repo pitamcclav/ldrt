@@ -6,12 +6,12 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="footer-info">
-              <h3>UpConstruction</h3>
+              <h3>LRFDT</h3>
               <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
+                P.O.Box 101,Lugazi <br>
+                +256 704 372685<br><br>
+                <strong>Phone:</strong> +256 772697875<br>
+                <strong>Email:</strong> info@lrdt.com<br>
               </p>
               <div class="social-links d-flex mt-3">
                 <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
@@ -36,33 +36,22 @@
           <div class="col-lg-2 col-md-3 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><a href="#">Web Design</a></li>
-              <li><a href="#">Web Development</a></li>
-              <li><a href="#">Product Management</a></li>
-              <li><a href="#">Marketing</a></li>
-              <li><a href="#">Graphic Design</a></li>
+              <li><a href="#">Agriculture</a></li>
+              <li><a href="#">Enironmental Protection</a></li>
+              <li><a href="#">Finacial programs</a></li>
+              <li><a href="#">Education</a></li>
+              <li><a href="#">Elderly Care</a></li>
             </ul>
           </div><!-- End footer links column-->
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Hic solutasetp</h4>
+            <h4> Our Projects</h4>
             <ul>
-              <li><a href="#">Molestiae accusamus iure</a></li>
-              <li><a href="#">Excepturi dignissimos</a></li>
-              <li><a href="#">Suscipit distinctio</a></li>
-              <li><a href="#">Dilecta</a></li>
-              <li><a href="#">Sit quas consectetur</a></li>
-            </ul>
-          </div><!-- End footer links column-->
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Nobis illum</h4>
-            <ul>
-              <li><a href="#">Ipsam</a></li>
-              <li><a href="#">Laudantium dolorum</a></li>
-              <li><a href="#">Dinera</a></li>
-              <li><a href="#">Trodelas</a></li>
-              <li><a href="#">Flexo</a></li>
+              <li><a href="#">Agriculture</a></li>
+              <li><a href="#">Enironmental Protection</a></li>
+              <li><a href="#">Finacial programs</a></li>
+              <li><a href="#">Education</a></li>
+              <li><a href="#">Elderly Care</a></li>
             </ul>
           </div><!-- End footer links column-->
 
@@ -73,7 +62,7 @@
     <div class="footer-legal text-center position-relative">
       <div class="container">
         <div class="copyright">
-          &copy; Copyright <strong><span>UpConstruction</span></strong>. All Rights Reserved
+          &copy; Copyright <strong><span>LRFDT</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
