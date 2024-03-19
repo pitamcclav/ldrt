@@ -36,7 +36,7 @@
 
   <!-- ======= Header ======= -->
   @include('partials.header')
-  <script>
+  <script defer>
     document.addEventListener('DOMContentLoaded', function () {
         const appContainer = document.getElementById('main');
 
@@ -72,7 +72,7 @@
                 .catch(error => console.error('Error fetching content:', error));
         });
     });
-</script>
+  </script>
 
   <main id="main">
     @yield('content')
