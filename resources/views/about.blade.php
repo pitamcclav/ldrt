@@ -36,7 +36,7 @@
 
           <div class="watch-video d-flex align-items-center position-relative">
             <i class="bi bi-play-circle"></i>
-            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox stretched-link">Watch Video</a>
+            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox stretched-link">Watch Vid</a>
           </div>
         </div>
       </div>
