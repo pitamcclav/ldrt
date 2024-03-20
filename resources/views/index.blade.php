@@ -622,14 +622,14 @@
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <img src="asset/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                  <h3>Saul Goodman</h3>
+                  <h3>Mulondo Patrick</h3>
                   <h4>Ceo &amp; Founder</h4>
                   <div class="stars">
                     <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                   </div>
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
-                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    LRFDT'S commitment to rural developmentis unwavering. Their sustainable agriculture initiatives have transformed our community, bringing better livelihoods and food security.We are grateful for their dedication.
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
                 </div>
@@ -640,14 +640,14 @@
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <img src="asset/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
+                  <h3>Kasule Fred</h3>
+                  <h4>Farmer</h4>
                   <div class="stars">
                     <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                   </div>
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
-                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                    LRFDT's financial management programs have been life changing for our community. We've gained financial stability and access to resources, thanks to their initiatives. Their support is invaluable.
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
                 </div>
@@ -658,14 +658,14 @@
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <img src="asset/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                  <h3>Jena Karlis</h3>
-                  <h4>Store Owner</h4>
+                  <h3>Ssentongo Hassan</h3>
+                  <h4>Teacher</h4>
                   <div class="stars">
                     <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                   </div>
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
-                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                    As a parent, I'm grateful for LRFDT's child protection and reproductive health programs. My family's well-being has improved,and I'm confident our children have a brighter future.
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
                 </div>
@@ -676,14 +676,14 @@
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <img src="asset/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                  <h3>Matt Brandon</h3>
-                  <h4>Freelancer</h4>
+                  <h3>Mawanda Kato Joseph</h3>
+                  <h4>Carpenter</h4>
                   <div class="stars">
                     <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                   </div>
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
-                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                    LRFDT's commitmentto collaboration and partnerships is remarkable. Together, we've created a network of support that multiplies our impact. LRFDT's leadership and collaboration inspire us all.
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
                 </div>
@@ -694,14 +694,15 @@
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <img src="asset/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                  <h3>John Larson</h3>
-                  <h4>Entrepreneur</h4>
+                  <h3>Fr. Joseph Male</h3>
+                  <h4>Priest</h4>
                   <div class="stars">
                     <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                   </div>
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
-                    Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                    I've witnessed the transformation of community-based groups through LRFDT's capacity-building programs. They've become powerful contributors to community development. LRFDT's work is truly life-changing.
+                  
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
                 </div>
