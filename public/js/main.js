@@ -1,10 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
 
-
-  /**
-   * Toggle mobile nav dropdowns
-   */
   const navDropdowns = document.querySelectorAll('.navbar .dropdown > a');
 
   navDropdowns.forEach(el => {
@@ -106,35 +102,35 @@ document.addEventListener('DOMContentLoaded', () => {
   /**
    * Init swiper slider with 2 slides at once in desktop view
    */
-  new Swiper('.slides-2', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 20
-      },
+  // new Swiper('.slides-2', {
+  //   speed: 600,
+  //   loop: true,
+  //   autoplay: {
+  //     delay: 5000,
+  //     disableOnInteraction: false
+  //   },
+  //   slidesPerView: 'auto',
+  //   pagination: {
+  //     el: '.swiper-pagination',
+  //     type: 'bullets',
+  //     clickable: true
+  //   },
+  //   navigation: {
+  //     nextEl: '.swiper-button-next',
+  //     prevEl: '.swiper-button-prev',
+  //   },
+  //   breakpoints: {
+  //     320: {
+  //       slidesPerView: 1,
+  //       spaceBetween: 20
+  //     },
 
-      1200: {
-        slidesPerView: 2,
-        spaceBetween: 20
-      }
-    }
-  });
+  //     1200: {
+  //       slidesPerView: 2,
+  //       spaceBetween: 20
+  //     }
+  //   }
+  // });
 
   /**
    * Initiate pURE cOUNTER

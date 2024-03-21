@@ -51,145 +51,149 @@
 
     <div id="preloader"></div>
     <script defer>
-  document.addEventListener('DOMContentLoaded', function () {
-      const appContainer = document.getElementById('main');
-      const mobileNavShow = document.querySelector('.mobile-nav-show');
-      const mobileNavHide = document.querySelector('.mobile-nav-hide');
-
-      // Function to update active class
-      function updateActiveClass(target) {
-          const activeLink = document.querySelector('a[data-ajax].active');
-          if (activeLink) {
+        document.addEventListener('DOMContentLoaded', function () {
+          const appContainer = document.getElementById('main');
+          const mobileNavShow = document.querySelector('.mobile-nav-show');
+          const mobileNavHide = document.querySelector('.mobile-nav-hide');
+          let swiperInstance = null; // Initialize swiper instance variable
+      
+          // Function to update active class
+          function updateActiveClass(target) {
+            const activeLink = document.querySelector('a[data-ajax].active');
+            if (activeLink) {
               activeLink.classList.remove('active');
+            }
+            target.classList.add('active');
           }
-          target.classList.add('active');
-      }
-
-      // Function to handle navigation
-      function navigate(url) {
-          // Fetch the content using AJAX
-          fetch(url)
+      
+          // Function to handle navigation
+          function navigate(url) {
+            // Fetch the content using AJAX
+            fetch(url)
               .then(response => response.text())
               .then(html => {
-                  appContainer.innerHTML = html;
-
-                  // Update the active class
-                  const targetLink = document.querySelector(`a[data-ajax][href="${url}"]`);
-                  if (targetLink) {
-                      updateActiveClass(targetLink);
-                  }
-
-                  // Update the URL
-                  history.pushState(null, null, url);
-
-                  // Reinitialize toggle button functionality
-                  initializeToggleButtons();
-
-                  // Initialize filter links
-                  initializeFilterLinks();
+                appContainer.innerHTML = html;
+      
+                // Update the active class
+                const targetLink = document.querySelector(`a[data-ajax][href="${url}"]`);
+                if (targetLink) {
+                  updateActiveClass(targetLink);
+                }
+      
+                // Update the URL
+                history.pushState(null, null, url);
+      
+                // Reinitialize toggle button functionality
+                initializeToggleButtons();
+      
+                // Initialize Swiper
+                initializeSwiper();
               })
               .catch(error => console.error('Error fetching content:', error));
-      }
-
-      // Handle navigation link clicks
-      function handleClick(event) {
-          const target = event.target.closest('a[data-ajax]');
-
-          if (target) {
+          }
+      
+          // Handle navigation link clicks
+          function handleClick(event) {
+            const target = event.target.closest('a[data-ajax]');
+      
+            if (target) {
               event.preventDefault();
               const url = target.getAttribute('href');
               navigate(url);
-
+      
               // Close mobile navigation if active
               if (document.body.classList.contains('mobile-nav-active')) {
-                  mobileNavToogle();
+                mobileNavToogle();
               }
+            }
           }
-      }
-
-      // Intercept clicks on navigation links
-      document.addEventListener('click', handleClick);
-
-      // Function to toggle mobile navigation
-      function mobileNavToogle() {
-          document.body.classList.toggle('mobile-nav-active');
-          mobileNavShow.classList.toggle('d-none');
-          mobileNavHide.classList.toggle('d-none');
-      }
-
-      // Handle browser back/forward navigation
-      window.addEventListener('popstate', function () {
-          const url = location.pathname;
-          navigate(url);
-      });
-
-      // Clean up event listeners when leaving the page
-      window.addEventListener('unload', function () {
-          document.removeEventListener('click', handleClick);
-          window.removeEventListener('popstate', handlePopState);
-      });
-
-      // Initialize active class based on current URL
-      const currentUrl = location.pathname;
-      const initialLink = document.querySelector(`a[data-ajax][href="${currentUrl}"]`);
-      if (initialLink) {
-          updateActiveClass(initialLink);
-      }
-
-      // Function to initialize toggle button functionality
-      function initializeToggleButtons() {
-          // Handle mobile navigation toggle
-          document.querySelectorAll('.mobile-nav-toggle').forEach(el => {
+      
+          // Intercept clicks on navigation links
+          document.addEventListener('click', handleClick);
+      
+          // Function to toggle mobile navigation
+          function mobileNavToogle() {
+            document.body.classList.toggle('mobile-nav-active');
+            mobileNavShow.classList.toggle('d-none');
+            mobileNavHide.classList.toggle('d-none');
+          }
+      
+          // Handle browser back/forward navigation
+          window.addEventListener('popstate', function () {
+            const url = location.pathname;
+            navigate(url);
+          });
+      
+          // Clean up event listeners when leaving the page
+          window.addEventListener('unload', function () {
+            document.removeEventListener('click', handleClick);
+            window.removeEventListener('popstate', handlePopState);
+          });
+      
+          // Initialize active class based on current URL
+          const currentUrl = location.pathname;
+          const initialLink = document.querySelector(`a[data-ajax][href="${currentUrl}"]`);
+          if (initialLink) {
+            updateActiveClass(initialLink);
+          }
+      
+          // Function to initialize toggle button functionality
+          function initializeToggleButtons() {
+            // Handle mobile navigation toggle
+            document.querySelectorAll('.mobile-nav-toggle').forEach(el => {
               el.addEventListener('click', function(event) {
-                  event.preventDefault();
-                  mobileNavToogle();
+                event.preventDefault();
+                mobileNavToogle();
               });
-          });
-      }
-
-      // Initialize toggle button functionality
-      initializeToggleButtons();
-
-      /**
-       * Hide mobile nav on same-page/hash links
-       */
-      document.querySelectorAll('#navbar a').forEach(navbarlink => {
-          if (!navbarlink.hash) return;
-          let section = document.querySelector(navbarlink.hash);
-          if (!section) return;
-          navbarlink.addEventListener('click', () => {
-              if (document.body.classList.contains('mobile-nav-active')) {
-                  mobileNavToogle();
+            });
+          }
+      
+          // Initialize toggle button functionality
+          initializeToggleButtons();
+      
+          // Function to initialize Swiper
+          function initializeSwiper() {
+            if (swiperInstance) {
+              swiperInstance.destroy(); // Destroy existing instance if it exists
+            }
+      
+            swiperInstance = new Swiper('.slides-2', {
+              speed: 600,
+              loop: true,
+              autoplay: {
+                delay: 5000,
+                disableOnInteraction: false
+              },
+              slidesPerView: 'auto',
+              pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                clickable: true
+              },
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+              breakpoints: {
+                320: {
+                  slidesPerView: 1,
+                  spaceBetween: 20
+                },
+      
+                1200: {
+                  slidesPerView: 2,
+                  spaceBetween: 20
+                }
               }
-          });
-      });
-
-      // Function to initialize filter link event listeners
-      function initializeFilterLinks() {
-          document.querySelectorAll('.portfolio-flters li').forEach(filterLink => {
-              filterLink.addEventListener('click', function () {
-                  const filterValue = this.getAttribute('data-filter');
-                  filterItems(filterValue);
-              });
-          });
-      }
-
-      // Function to filter portfolio items based on selected category
-      function filterItems(filterValue) {
-          const portfolioItems = document.querySelectorAll('.portfolio-item');
-          portfolioItems.forEach(item => {
-              if (filterValue === '*' || item.classList.contains(filterValue)) {
-                  item.style.display = 'block';
-              } else {
-                  item.style.display = 'none';
-              }
-          });
-      }
-
-      // Initialize filter link event listeners on page load
-      initializeFilterLinks();
-  });
-</script>
+            });
+          }
+      
+          // Initialize Swiper
+          initializeSwiper();
+      
+        });
+      </script>
+      
   
   
   
