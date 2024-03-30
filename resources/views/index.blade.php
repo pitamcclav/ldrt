@@ -56,7 +56,7 @@
           </div>
 
           <div class="col-lg-5" data-aos="fade">
-            <form action="forms/quote.php" method="post" class="php-email-form">
+            <form action="/submit" method="post" class="php-email-form">
               <h3>Volunteer with us</h3>
               <p>We welcome individuals who share our passion for community development and want to contribute their time, skills, and energy to our cause.</p>
               <div class="row gy-3">

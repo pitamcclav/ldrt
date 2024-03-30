@@ -21,4 +21,5 @@ Route::controller(HomeController::class)->group(function () {
     Route::get('/about', 'about')->name('about');
     Route::get('/services', 'services')->name('services');
     Route::get('/projects', 'projects')->name('projects');
+    Route::post('/submit', 'submit')->name('submit');
 });
