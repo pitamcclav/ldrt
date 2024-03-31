@@ -7,7 +7,7 @@
 
         <h2>Contact</h2>
         <ol>
-          <li><a href="index.html">Home</a></li>
+          <li><a data-ajax href="{{ route('index') }}">Home</a></li>
           <li>Contact</li>
         </ol>
 
@@ -52,7 +52,9 @@
           </div><!-- End Google Maps -->
 
           <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="{{ route('send_message') }}" method="POST" id="emailForm" enctype="multipart/form-data" role="form" class="formOne">
+              @csrf
+              <div class="loading-spinner d-none"></div>
               <div class="row gy-4">
                 <div class="col-lg-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -72,7 +74,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit" id="sendEmailButton">Send Message</button></div>
             </form>
           </div><!-- End Contact Form -->
 

@@ -46,17 +46,20 @@
               <p>At LRFDT, we believe in the power of community, and that includes individuals like you who want to make a meaningful impact. Volunteering with us is an opportunity to be part of a dedicated team committed to transforming rural communities in Uganda.</p>
               <p><b>Why Volunteer With LRFDT?</b>
                 <ul>
-<li> <b> Community Impact:</b> By volunteering with us, you'll play a vital role in empowering rural communities and contributing to their self-sustainability.</li>
-<li><b>Skill Development:</b> We offer a range of projects that provide opportunities to develop and enhance your skills, from agriculture to community development.</li>
-<li><b>Cultural Exchange:</b> Immerse yourself in the rich culture and traditions of the Lugazi region while collaborating with local community members.</li>
-<li><b>Personal Fulfillment:</b> Volunteering is not just about giving; it's also about gaining a sense of purpose and personal fulfillment.</li>
-</ul>
-</p>
+                  <li> <b> Community Impact:</b> By volunteering with us, you'll play a vital role in empowering rural communities and contributing to their self-sustainability.</li>
+                  <li><b>Skill Development:</b> We offer a range of projects that provide opportunities to develop and enhance your skills, from agriculture to community development.</li>
+                  <li><b>Cultural Exchange:</b> Immerse yourself in the rich culture and traditions of the Lugazi region while collaborating with local community members.</li>
+                  <li><b>Personal Fulfillment:</b> Volunteering is not just about giving; it's also about gaining a sense of purpose and personal fulfillment.</li>
+                </ul>
+            </p>
+              <a href="#volunteer" class="btn-learn-more">Get Started</a>
             </div>
           </div>
 
           <div class="col-lg-5" data-aos="fade">
-            <form action="/submit" method="post" class="php-email-form">
+            <form action="{{ route('send_mail') }}" id="emailForm" method="POST" class="formOne" enctype="multipart/form-data">
+              @csrf
+              <div class="loading-spinner d-none"></div>
               <h3>Volunteer with us</h3>
               <p>We welcome individuals who share our passion for community development and want to contribute their time, skills, and energy to our cause.</p>
               <div class="row gy-3">
@@ -78,15 +81,13 @@
                 </div>
 
                 <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
-
-                  <button type="submit">Send</button>
+                  <button type="submit" id="sendEmailButton">Send</button>
                 </div>
+                
 
               </div>
             </form>
+            
           </div><!-- End Quote Form -->
 
         </div>

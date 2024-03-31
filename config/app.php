@@ -159,6 +159,7 @@ return [
         /*
          * Package Service Providers...
          */
+        // Illuminate\Mail\MailServiceProvider::class,
 
         /*
          * Application Service Providers...

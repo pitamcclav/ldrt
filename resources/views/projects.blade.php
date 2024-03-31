@@ -7,7 +7,7 @@
 
         <h2>Projects</h2>
         <ol>
-          <li><a href="index.html">Home</a></li>
+          <li><a data-ajax href="{{ route('index') }}">Home</a></li>
           <li>Projects</li>
         </ol>
 
