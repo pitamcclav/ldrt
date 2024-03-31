@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\MailController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -23,3 +24,5 @@ Route::controller(HomeController::class)->group(function () {
     Route::get('/projects', 'projects')->name('projects');
     Route::post('/submit', 'submit')->name('submit');
 });
+Route::post ('/send-mail',[MailController::class,'mailData'])->name('send_mail');
+Route::post ('/send-message',[MailController::class,'messageData'])->name('send_message');

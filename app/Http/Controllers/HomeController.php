@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\SubmitForm;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller
 {
@@ -32,6 +34,5 @@ class HomeController extends Controller
     {
         return view('projects');
     }
-
     
 }
