@@ -59,7 +59,9 @@ document.addEventListener('DOMContentLoaded', () => {
         initializeToggleButtons();
 
         // Initialize Swiper
-        initializeSwiper();
+        // initializeSwiperOne();
+
+        initializeSwiperTwo();
 
         // onPortfolioFilterClick
         onPortfolioFilterClick();
@@ -77,6 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Handle navigation link clicks
   function handleClick(event) {
     const target = event.target.closest('a[data-ajax]');
+    // initializeSwiperOne();
 
     if (target) {
       event.preventDefault();
@@ -134,26 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initializeToggleButtons();
 
   // Function to initialize Swiper
-  function initializeSwiper() {
-    new Swiper('.slides-1', {
-      speed: 600,
-      loop: true,
-      autoplay: {
-        delay: 5000,
-        disableOnInteraction: false
-      },
-      slidesPerView: 'auto',
-      pagination: {
-        el: '.swiper-pagination',
-        type: 'bullets',
-        clickable: true
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      }
-    });
-  }
+  function initializeSwiperTwo() {
     new Swiper('.slides-2', {
       speed: 600,
       loop: true,
@@ -183,11 +167,31 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       }
     });
+  }
+  initializeSwiperTwo();
 
-    
-
-  // Initialize Swiper
-  initializeSwiper();
+  // function initializeSwiperOne(){
+  //   new Swiper('.slides-1', {
+  //     speed: 600,
+  //     loop: true,
+  //     autoplay: {
+  //       delay: 5000,
+  //       disableOnInteraction: false
+  //     },
+  //     slidesPerView: 'auto',
+  //     pagination: {
+  //       el: '.swiper-pagination',
+  //       type: 'bullets',
+  //       clickable: true
+  //     },
+  //     navigation: {
+  //       nextEl: '.swiper-button-next',
+  //       prevEl: '.swiper-button-prev',
+  //     }
+  //   });
+  // }
+  // // Initialize Swiper
+  // initializeSwiperOne();
 
   /**
    * Function to handle AJAX form submission
