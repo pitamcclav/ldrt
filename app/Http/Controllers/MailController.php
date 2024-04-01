@@ -23,10 +23,10 @@ class MailController extends Controller
         
         
         Mail::to($this->reciever)->send(new SendMail($name, $email, $phone, $message));
-        
+        Mail::to( $email)->send(new SendMessageToEndUser($name,$senderMessage));
         return redirect()->back()->with('message', 'Message sent successfully');    
 
-        Mail::to( $email)->send(new SendMessageToEndUser($name,$senderMessage));
+       
     }
 
     public function messageData(Request $request)
@@ -38,10 +38,10 @@ class MailController extends Controller
         $senderMessage = "thanks for your message , we will reply you in later";
 
         Mail::to($this->reciever)->send(new sendMessage($name, $email, $subject, $message));
-        
+        Mail::to( $email)->send(new SendMessageToEndUser($name,$senderMessage));
         return redirect()->back()->with('message', 'Message sent successfully');  
 
-        Mail::to( $email)->send(new SendMessageToEndUser($name,$senderMessage));
+       
     }
     
 }
