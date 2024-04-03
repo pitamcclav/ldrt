@@ -1,7 +1,6 @@
 @component('mail::message')
 # Hi {{ $name }},
-# {{ $senderMessage }}  
-Receive your email. I will try quicly answer.
+{{ $senderMessage }}  
 @component('mail::button', ['url' => 'your-website-url'])
 Visit Our Website
 @endcomponent

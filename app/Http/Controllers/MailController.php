@@ -12,6 +12,8 @@ use Illuminate\Support\Facades\Mail;
 class MailController extends Controller
 {
     public $reciever = "ssekitoolekopeterclaver@gmail.com";
+    public $senderMessage = "Your message has been recieved, we will get back to you soon. Thank you for contacting us.";
+
     //
     public function mailData(Request $request)
     {
@@ -19,11 +21,10 @@ class MailController extends Controller
         $email = $request->email;
         $phone = $request->phone;
         $message = $request->message;
-        $senderMessage = "thanks for your message , we will reply you in later";
         
         
         Mail::to($this->reciever)->send(new SendMail($name, $email, $phone, $message));
-        Mail::to( $email)->send(new SendMessageToEndUser($name,$senderMessage));
+        Mail::to( $email)->send(new SendMessageToEndUser($name,$this->senderMessage));
         return redirect()->back()->with('message', 'Message sent successfully');    
 
        
@@ -35,10 +36,10 @@ class MailController extends Controller
         $email = $request->email;
         $subject = $request->subject;
         $message = $request->message;
-        $senderMessage = "thanks for your message , we will reply you in later";
+        
 
         Mail::to($this->reciever)->send(new sendMessage($name, $email, $subject, $message));
-        Mail::to( $email)->send(new SendMessageToEndUser($name,$senderMessage));
+        Mail::to( $email)->send(new SendMessageToEndUser($name,$this->senderMessage));
         return redirect()->back()->with('message', 'Message sent successfully');  
 
        
