@@ -184,14 +184,10 @@
             </div>
           </div><!-- End Icon Box -->
         </div>
-        <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="500">
-                <img src="{{ asset('img/content/20240210_105102.jpg') }}" alt="" class="img-fluid">
-                <img src="{{ asset('img/content/20221118_104731.jpg') }}" alt="" class="img-fluid">
-              </div>
-            </div>
-        <div class="col-lg-6 img-bg" style="background-image: url(assets/img/content/20240210_105102.jpg);" data-aos="zoom-in" data-aos-delay="100"></div>
+
+        <div class="col-lg-6 img-bg" style="background-image: url(assets/img/alt-services-2.jpg);" data-aos="zoom-in" data-aos-delay="100"></div>
       </div>
-      
+
     </div>
   </section><!-- End Alt Services Section 2 -->
 
@@ -200,7 +196,7 @@
     <div class="container" data-aos="fade-up">
 
       <div class="row justify-content-around gy-4">
-      <div class="col-lg-6 img-bg" style="background-image: url({{ asset('img/content/IMG-20201216-WA0039.jpg') }});" data-aos="zoom-in" data-aos-delay="100"></div>
+        <div class="col-lg-6 img-bg" style="background-image: url(assets/img/alt-services.jpg);" data-aos="zoom-in" data-aos-delay="100"></div>
 
         <div class="col-lg-5 d-flex flex-column justify-content-center">
           <h3>Environmental Conservation</h3>
