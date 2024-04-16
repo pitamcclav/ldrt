@@ -17,11 +17,11 @@
 
     <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
 
-      <div class="carousel-item active" style="background-image: url({{ asset('img/hero-carousel/hero-carousel-1.jpg') }})"></div>
-      <div class="carousel-item" style="background-image: url({{ asset('img/hero-carousel/hero-carousel-2.jpg') }})"></div>
-      <div class="carousel-item" style="background-image: url({{ asset('img/hero-carousel/hero-carousel-3.jpg') }})"></div>
-      <div class="carousel-item" style="background-image: url({{ asset('img/hero-carousel/hero-carousel-4.jpg') }})"></div>
-      <div class="carousel-item" style="background-image: url({{ asset('img/hero-carousel/hero-carousel-5.jpg') }})"></div>
+      <div class="carousel-item active" style="background-image: url({{ asset('img/content/IMG-20220917-WA0011.jpg') }})"></div>
+      <div class="carousel-item" style="background-image: url({{ asset('img/content/IMG-20220917-WA0011.jpg') }})"></div>
+      <div class="carousel-item" style="background-image: url({{ asset('img/content/IMG-20220917-WA0011.jpg') }})"></div>
+      <div class="carousel-item" style="background-image: url({{ asset('img/content/IMG-20220917-WA0011.jpg') }})"></div>
+      <div class="carousel-item" style="background-image: url({{ asset('img/content/IMG-20220917-WA0011.jpg') }})"></div>
 
       <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
@@ -110,7 +110,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url({{ asset('img/constructions-1.jpg') }});"></div>
+                  <div class="card-bg" style="background-image: url({{ asset('img/content/IMG-20220917-WA0011.jpg') }});"></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -126,7 +126,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url({{ asset('img/constructions-2.jpg') }});"></div>
+                  <div class="card-bg" style="background-image: url({{ asset('img/content/20240219_183824.jpg') }});"></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -158,7 +158,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url({{ asset('img/constructions-4.jpg') }});"></div>
+                  <div class="card-bg" style="background-image: url({{ asset('img/content/20240117_165658.jpg') }});"></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -359,7 +359,7 @@
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
-                <img src="{{ asset('img/features-1.jpg') }}" alt="" class="img-fluid">
+                <img src="{{ asset('img/content/20240210_132429.jpg') }}" alt="" class="img-fluid">
               </div>
             </div>
           </div><!-- End tab content item -->
@@ -384,7 +384,7 @@
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="{{ asset('img/features-2.jpg') }}" alt="" class="img-fluid">
+                <img src="{{ asset('img/content/Community Training on Medicinal Plants.jpg') }}" alt="" class="img-fluid">
               </div>
             </div>
           </div><!-- End tab content item -->
@@ -404,7 +404,7 @@
                 </p>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="{{ asset('img/features-3.jpg') }}" alt="" class="img-fluid">
+                <img src="{{ asset('img/content/20231128_162452.jpg') }}" alt="" class="img-fluid">
               </div>
             </div>
           </div><!-- End tab content item -->
@@ -425,7 +425,7 @@
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="{{ asset('img/features-4.jpg') }}" alt="" class="img-fluid">
+                <img src="{{ asset('img/content/Alternative IGA as a result of Medicinal Project.jpg') }}" alt="" class="img-fluid">
               </div>
             </div>
           </div><!-- End tab content item -->
@@ -458,11 +458,33 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
               <div class="portfolio-content h-100">
-                <img src="{{ asset('img/projects/remodeling-1.jpg') }}" class="img-fluid" alt="">
+                <img src="{{ asset('img\content\Explaning the Medicinal Project Impact to the stakeholder.jpg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Remodeling 1</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="{{ asset('img/projects/remodeling-1.jpg') }}" title="Remodeling 1" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="{{ asset('img\content\Explaning the Medicinal Project Impact to the stakeholder.jpg') }}" title="Remodeling 1" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+              <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <div class="portfolio-content h-100">
+                <img src="{{ asset('img\content\IMG-20201216-WA0039.jpg') }}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Remodeling 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="{{ asset('img\content\IMG-20201216-WA0039.jpg') }}" title="Remodeling 1" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <div class="portfolio-content h-100">
+                <img src="{{ asset('img\content\20240210_150109.jpg') }}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Remodeling 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="{{ asset('img\content\20240210_150109.jpg') }}" title="Remodeling 1" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -470,11 +492,34 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
               <div class="portfolio-content h-100">
-                <img src="{{ asset('img/projects/construction-1.jpg') }}" class="img-fluid" alt="">
+                <img src="{{ asset('img\content\20240219_183243.jpg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Construction 1</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="{{ asset('img/projects/construction-1.jpg') }}" title="Construction 1" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="{{ asset('img\content\Training the Future Generation on Medicinal Plants.jpg') }}" title="Construction 1" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="{{ asset('img\content\20240210_105858.jpg') }}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Construction 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="{{ asset('iimg\content\20240210_105858.jpg') }}" title="Construction 1" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="{{ asset('img\content\20240210_110950.jpg') }}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Construction 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="{{ asset('iimg\content\20240210_105858.jpg') }}" title="Construction 1" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -482,7 +527,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
               <div class="portfolio-content h-100">
-                <img src="{{ asset('img/projects/repairs-1.jpg') }}" class="img-fluid" alt="">
+                <img src="{{ asset('img\content\20240210_132429.jpg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Repairs 1</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -494,7 +539,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-design">
               <div class="portfolio-content h-100">
-                <img src="{{ asset('img/projects/design-1.jpg') }}" class="img-fluid" alt="">
+                <img src="{{ asset('img\content\Training the Future Generation on Medicinal Plants.jpg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Design 1</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -506,11 +551,11 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
               <div class="portfolio-content h-100">
-                <img src="{{ asset('img/projects/remodeling-2.jpg') }}" class="img-fluid" alt="">
+                <img src="{{ asset('img\content\20240111_145554.jpg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Remodeling 2</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="{{ asset('img/projects/remodeling-2.jpg') }}" title="Remodeling 2" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="{{ asset('img\content\20240111_145554.jpg') }}" title="Remodeling 2" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -518,7 +563,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
               <div class="portfolio-content h-100">
-                <img src="{{ asset('img/projects/construction-2.jpg') }}" class="img-fluid" alt="">
+                <img src="{{ asset('img\content\20230324_153959.jpg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Construction 2</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -530,7 +575,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
               <div class="portfolio-content h-100">
-                <img src="{{ asset('img/projects/repairs-2.jpg') }}" class="img-fluid" alt="">
+                <img src="{{ asset('img\content\20231127_165629.jpg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Repairs 2</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -540,13 +585,38 @@
               </div>
             </div><!-- End Projects Item -->
 
+            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="{{ asset('img\content\20230324_123808.jpg') }}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Repairs 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="img\content\20230324_123808.jpg" title="Repairs 2" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="{{ asset('img/content/Alternative IGA as a result of Medicinal Project.jpg') }}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Repairs 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="img\content\20230324_123808.jpg" title="Repairs 2" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+
             <div class="col-lg-4 col-md-6 portfolio-item filter-design">
               <div class="portfolio-content h-100">
-                <img src="asset/img/projects/design-2.jpg" class="img-fluid" alt="">
+                <img src="img\content\20240210_104757.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Design 2</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="asset/img/projects/design-2.jpg" title="Repairs 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="img\content\20240210_104757.jpg" title="Repairs 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -554,7 +624,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
               <div class="portfolio-content h-100">
-                <img src="asset/img/projects/remodeling-3.jpg" class="img-fluid" alt="">
+                <img src="img\content\20240210_105704.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Remodeling 3</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -566,7 +636,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
               <div class="portfolio-content h-100">
-                <img src="asset/img/projects/construction-3.jpg" class="img-fluid" alt="">
+                <img src="img\content\IMG-20220917-WA0011.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Construction 3</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -588,13 +658,25 @@
               </div>
             </div><!-- End Projects Item -->
 
+            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="img\content\20230324_120440.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Repairs 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="asset/img/projects/repairs-3.jpg" title="Repairs 2" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
             <div class="col-lg-4 col-md-6 portfolio-item filter-design">
               <div class="portfolio-content h-100">
-                <img src="asset/img/projects/design-3.jpg" class="img-fluid" alt="">
+                <img src="img\content\20240210_104538.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Design 3</h4>
+                  <h4> EDUCATION</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="asset/img/projects/design-3.jpg" title="Repairs 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="img\content\20240210_104538.jpg" title="Repairs 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
