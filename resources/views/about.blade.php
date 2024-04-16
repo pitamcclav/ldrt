@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/breadcrumbs-bg.jpg');">
+<div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/content/about.jpg');">
   <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
     <h2>About</h2>
@@ -19,7 +19,7 @@
 
     <div class="row position-relative">
 
-      <div class="col-lg-7 about-img" style="background-image: url(assets/img/about.jpg);"></div>
+      <div class="col-lg-7 about-img" style="background-image: url({{ asset('img/content/about.jpg') }})"></div>
 
       <div class="col-lg-7">
         <h2>Lugazi Rural Financial Development Trust</h2>
@@ -105,7 +105,7 @@
   <div class="container" data-aos="fade-up">
 
     <div class="row justify-content-around gy-4">
-      <div class="col-lg-6 img-bg" style="background-image: url(assets/img/alt-services.jpg);" data-aos="zoom-in" data-aos-delay="100"></div>
+    <div class="col-lg-6 img-bg" style="background-image: url({{ asset('img/content/IMG-20230316-WA0004.jpg') }});" data-aos="zoom-in" data-aos-delay="100"></div>
 
       <div class="col-lg-5 d-flex flex-column justify-content-center">
         <h3>Our Vision and Mission</h3>
@@ -176,10 +176,14 @@
             <p>Participation is a vital component of our organization, an active  involvement from all members is crucial for the successful completion of tasks and activities. We encourage and value the engagement of all memebers to achieve our goals.</p>
           </div>
         </div><!-- End Icon Box -->
-      </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="500">
+                <img src="{{ asset('img/content/20240209_145605.jpg') }}" alt="" class="img-fluid">
+                <img src="{{ asset('img/content/20230324_123808.jpg') }}" alt="" class="img-fluid">
 
-      <div class="col-lg-6 img-bg" style="background-image: url(assets/img/alt-services-2.jpg);" data-aos="zoom-in" data-aos-delay="100"></div>
-    </div>
+              </div>
+            </div>
+            
 
   </div>
 </section><!-- End Alt Services Section 2 -->
@@ -243,23 +247,6 @@
           <h4>MR. ROBERT MBOGGA</h4>
           <span>COORDINATOR</span>
           <p>LRFDT's mission-driven Coordinator. We're passionate about community impact. Join us in creating positive change together.</p>
-        </div>
-      </div><!-- End Team Member -->
-
-      <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
-        <div class="member-img">
-          <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-          <div class="social">
-            <a href="#"><i class="bi bi-twitter"></i></a>
-            <a href="#"><i class="bi bi-facebook"></i></a>
-            <a href="#"><i class="bi bi-instagram"></i></a>
-            <a href="#"><i class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
-        <div class="member-info text-center">
-          <h4>MR. RONALD SSOZI</h4>
-          <span>FINANCE OFFICER</span>
-          <p>Managing LRFDT's finances with transparency and accountability. Your support ensures resources go where they're needed most.</p>
         </div>
       </div><!-- End Team Member -->
 
