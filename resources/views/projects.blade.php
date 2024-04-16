@@ -37,7 +37,6 @@
                   <h4>Remodeling 1</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
                   <a href="assets/img/projects/remodeling-1.jpg" title="Remodeling 1" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -49,7 +48,6 @@
                   <h4>Construction 1</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
                   <a href="assets/img/projects/construction-1.jpg" title="Construction 1" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -61,7 +59,6 @@
                   <h4>Repairs 1</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
                   <a href="assets/img/projects/repairs-1.jpg" title="Repairs 1" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Projects Item -->
