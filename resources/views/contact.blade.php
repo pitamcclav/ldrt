@@ -31,7 +31,7 @@
             <div class="info-item d-flex flex-column justify-content-center align-items-center">
               <i class="bi bi-envelope"></i>
               <h3>Email Us</h3>
-              <p>info@LRFDT.org</p>
+              <p>lugazirfdt@gmail.com</p>
             </div>
           </div><!-- End Info Item -->
 

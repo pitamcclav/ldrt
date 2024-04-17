@@ -27,7 +27,37 @@ class HomeController extends Controller
 
     public function services()
     {
-        return view('services');
+        $folder = 'reports';
+        $reports = [];
+        $docPaths = glob(public_path($folder) . '/*');
+        foreach ($docPaths as $docPath) {
+            // Determine the file type based on its extension
+            $extension = pathinfo($docPath, PATHINFO_EXTENSION);
+            $type = '';
+            switch ($extension) {
+                case 'pdf':
+                    $type = 'pdf';
+                    break;
+                case 'doc':
+                case 'docx':
+                    $type = 'word';
+                    break;
+                // Add more cases for other file types if needed
+                default:
+                    $type = 'other';
+                    break;
+            }
+
+    // Add the report information to the reports array
+        $reports[] = [
+            'name' => basename($docPath),
+            'path' => $folder . '/' . basename($docPath),
+            'type' => $type,
+        ];
+    }
+
+    return view('services', compact('reports'));
+
     }
 
     public function projects()

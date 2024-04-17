@@ -2572,6 +2572,51 @@ section {
   color: var(--color-secondary);
   background-color: var(--color-primary);
 }
+.report-item {
+  margin-bottom: 15px;
+}
+
+.icon-container {
+  margin-right: 10px;
+}
+
+.pdf-icon {
+  color: #ff0000; /* Red color for PDF icon */
+}
+
+.word-icon {
+  color: #007bff; /* Blue color for Word icon */
+}
+
+.report-name {
+  flex-grow: 1;
+  white-space: normal; /* Allow the report name to wrap on smaller screens */
+  overflow: visible; /* Ensure the full report name is visible */
+}
+
+.icon-link {
+  /* display: flex;
+  align-items: center; */
+  margin-left: auto;
+}
+
+.icon {
+  font-size: 18px;
+}
+
+/* Raised card appearance */
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .col-lg-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
 
 /*--------------------------------------------------------------
 # Footer

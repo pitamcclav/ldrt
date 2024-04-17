@@ -126,7 +126,7 @@
             <li><i class="bi bi-check2"></i> <span>Tree Planting</span></li>
             <li><i class="bi bi-check2"></i> <span>Traditional Medicinal Plant Conservation</span></li>
             <li><i class="bi bi-check2"></i> <span>Multiplying Endangered Medicinal Plants
-</span></li>
+            </span></li>
           </ul>
         </div><!-- End feature item-->
 
@@ -144,7 +144,7 @@
   </section><!-- End Servie Cards Section -->
 
   <!-- ======= Alt Services Section 2 ======= -->
-  <section id="alt-services-2" class="alt-services section-bg">
+  {{-- <section id="alt-services-2" class="alt-services section-bg">
     <div class="container" data-aos="fade-up">
 
       <div class="row justify-content-around gy-4">
@@ -189,10 +189,10 @@
       </div>
 
     </div>
-  </section><!-- End Alt Services Section 2 -->
+  </section><!-- End Alt Services Section 2 --> --}}
 
   <!-- ======= Alt Services Section ======= -->
-  <section id="alt-services" class="alt-services">
+  {{-- <section id="alt-services" class="alt-services">
     <div class="container" data-aos="fade-up">
 
       <div class="row justify-content-around gy-4">
@@ -238,7 +238,46 @@
       </div>
 
     </div>
-  </section><!-- End Alt Services Section -->
+  </section><!-- End Alt Services Section --> --}}
 
-    
+  <!-- ======= Reports Section ======= -->
+  <section id="reports" class="reports section-bg">
+    <div class="container" data-aos="fade-up">
+  
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-title">
+            <h2>Reports</h2>
+          </div>
+        </div>
+      </div>
+  
+      <div class="row">
+        @foreach ($reports as $report)
+        <div class="col-lg-3 col-md-6">
+          <div class="report-item card">
+            <div class="card-body">
+              <div class="report-info d-flex align-items-center ">
+                <span class="icon-container">
+                  @if ($report['type'] == 'pdf')
+                  <i class="far fa-file-pdf pdf-icon"></i>
+                  @elseif ($report['type'] == 'word')
+                  <i class="far fa-file-word word-icon"></i>
+                  @endif
+                </span>
+                <span class="report-name">{{ $report['name'] }}</span>
+                <a href="{{ $report['path'] }}" download="{{ $report['name'] }}" class="btn btn-link icon-link">
+                  <i class="bi bi-download icon"></i> <!-- Assuming you're using Bootstrap icons -->
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        @endforeach
+      </div>
+  
+    </div>
+  </section><!-- End Reports Section -->
+  
+  
 @endsection
