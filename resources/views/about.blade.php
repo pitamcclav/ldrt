@@ -39,7 +39,7 @@
 
       <!-- Image Column (Order 2 on large screens) -->
       <div class="col-lg-5 order-lg-2 text-center">
-        <img src="{{ asset('img/content/about.jpg') }}" alt="" style="width: 700px; height: 800px;">
+        <img src="{{ asset('img/content/about.jpg') }}" alt="" style="width: auto; height: auto;">
       </div><!-- End Image Column -->
 
     </div><!-- End Row -->
@@ -182,7 +182,8 @@
 
       
     <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="{{ asset('img/content/20240209_145605.jpg') }}" alt="" style="width: 800px; height: 800px;">
+      
+                <img src="{{ asset('img/content/20240209_145605.jpg') }}" alt="" style="width: 800px; height: 650px;">
   </div>
     </div>
      
