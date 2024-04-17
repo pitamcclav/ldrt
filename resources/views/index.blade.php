@@ -18,10 +18,10 @@
     <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
 
       <div class="carousel-item active" style="background-image: url({{ asset('img/content/IMG-20220917-WA0011.jpg') }})"></div>
+      <div class="carousel-item" style="background-image: url({{ asset('img/content/features-4.jpg') }})"></div>
       <div class="carousel-item" style="background-image: url({{ asset('img/content/IMG-20220917-WA0011.jpg') }})"></div>
-      <div class="carousel-item" style="background-image: url({{ asset('img/content/IMG-20220917-WA0011.jpg') }})"></div>
-      <div class="carousel-item" style="background-image: url({{ asset('img/content/IMG-20220917-WA0011.jpg') }})"></div>
-      <div class="carousel-item" style="background-image: url({{ asset('img/content/IMG-20220917-WA0011.jpg') }})"></div>
+      <div class="carousel-item" style="background-image: url({{ asset('img/content/20240210_102315.jpg') }})"></div>
+      <div class="carousel-item" style="background-image: url({{ asset('img/content/20221104_171544.jpg') }})"></div>
 
       <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
@@ -175,89 +175,9 @@
       </div>
     </section><!-- End Constructions Section -->
 
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg">
-      <div class="container" data-aos="fade-up">
+    
 
-        <div class="section-header">
-          <h2>SDGs</h2>
-          <p>Our work aligns with several Sustainable Development Goals (SDGs) as set forth by the United Nations. These global goals guide our initiatives and reflect our dedication to creating a brighter future for rural communities.</p>
-        </div>
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
-              <div class="icon">
-              <i class="fas fa-hand-holding-usd"></i>
-              </div>
-              <h3>SDG 1: No Poverty</h3>
-              <p>Our financial management programs, vocational training, and savings and credit schemes are designed to empower individuals with the tools to break the cycle of poverty and achieve economic independence.</p>
-              <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon">
-              <i class="fas fa-utensils"></i>
-              </div>
-              <h3>SDG 2: Zero Hunger</h3>
-              <p>Our sustainable agriculture initiatives and agro-processing programs enhance food security, promote better nutrition, and reduce hunger in the communities we support.</p>
-              <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon">
-              <i class="fas fa-first-aid"></i>
-              
-              </div>
-              <h3>SDG 3: Good Health and Well-Being</h3>
-              <p>Our work in child protection, reproductive health, and traditional medicinal plant conservation contributes to improved health and well-being for community members, ensuring access to essential care.</p>
-              <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon">
-              <i class="fas fa-graduation-cap"></i>
-              </div>
-              <h3>SDG 4: Quality Education</h3>
-              <p>LRFDT's commitment to scholarships, vocational skills training, and school construction supports the goal of providing quality education and enhancing access to learning opportunities.</p>
-              <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item position-relative">
-              <div class="icon">
-              <i class="fas fa-briefcase"></i>
-              </div>
-              <h3>SDG 8: Decent Work and Economic Growth</h3>
-              <p>Our programs in financial management, vocational training, and income-generating activities create economic opportunities and foster decent work, promoting sustainable economic growth</p>
-              <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative">
-              <div class="icon">
-              <i class="fas fa-tree"></i>
-              </div>
-              <h3>SDG 15: Life on Land</h3>
-              <p>Our efforts in tree planting and the conservation of traditional medicinal plants support the preservation of terrestrial ecosystems and the protection of life on land.</p>
-              <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
-
-      </div>
-    </section><!-- End Services Section -->
-
+          
     <!-- ======= Alt Services Section ======= -->
     <section id="alt-services" class="alt-services">
       <div class="container" data-aos="fade-up">
@@ -359,7 +279,7 @@
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
-                <img src="{{ asset('img/content/20240210_132429.jpg') }}" alt="" class="img-fluid">
+                <img src="{{ asset('img/content/20240210_132429.jpg') }}" alt="" style="width: 700px; height: 600px;">
               </div>
             </div>
           </div><!-- End tab content item -->
@@ -384,7 +304,7 @@
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="{{ asset('img/content/Community Training on Medicinal Plants.jpg') }}" alt="" class="img-fluid">
+              <img src="{{ asset('img/content/Community Training on Medicinal Plants.jpg') }}" alt="" style="width: 700px; height: 600px;" >
               </div>
             </div>
           </div><!-- End tab content item -->
@@ -404,7 +324,7 @@
                 </p>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="{{ asset('img/content/20231128_162452.jpg') }}" alt="" class="img-fluid">
+                <img src="{{ asset('img/content/20231128_162452.jpg') }}" alt="" style="width: 700px; height: 600px;" >
               </div>
             </div>
           </div><!-- End tab content item -->
@@ -425,7 +345,7 @@
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="{{ asset('img/content/Alternative IGA as a result of Medicinal Project.jpg') }}" alt="" class="img-fluid">
+                <img src="{{ asset('img/content/Alternative IGA as a result of Medicinal Project.jpg') }}" alt="" style="width: 700px; height: 600px;">
               </div>
             </div>
           </div><!-- End tab content item -->
