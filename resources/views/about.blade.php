@@ -21,10 +21,10 @@
 
     <div class="row position-relative">
 
-      <div class="col-lg-7 about-img" style="background-image: url({{ asset('img/content/IMG-20221007-WA0003.jpg') }});"></div>
-
-      <div class="col-lg-7">
-        <h2>Lugazi Rural Financial Development Trust</h2>
+      {{-- <div class="col-lg-7 about-img" style="background-image: url({{ asset('img/content/IMG-20221007-WA0003.jpg') }});"></div> --}}
+      <h2>Lugazi Rural Financial Development Trust</h2>
+      <div class="col-lg-6">
+        
         <div class="our-story">
           <h4>Since 2014</h4>
           <h3>Our Journey</h3>
@@ -39,8 +39,8 @@
       </div><!-- End Text Content Column -->
 
       <!-- Image Column (Order 2 on large screens) -->
-      <div class="col-lg-5 order-lg-2 text-center">
-        <img src="{{ asset('img/content/about.jpg') }}" alt="" style="width: auto; height: auto;">
+      <div class="col-lg-6 order-lg-2 text-center ">
+        <img src="{{ asset('img/content/IMG-20221007-WA0003.jpg') }}" alt="" style="width: auto; height: auto;">
       </div><!-- End Image Column -->
 
     </div><!-- End Row -->
