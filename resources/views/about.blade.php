@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/breadcrumbs-bg.jpg');">
+<div class="breadcrumbs d-flex align-items-center" style="background-image: url('{{ asset('img/content/20240209_145605.jpg') }}'); background-size: cover; background-position: center;">
   <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
     <h2>About</h2>
@@ -13,14 +13,15 @@
   </div>
 </div><!-- End Breadcrumbs -->
 
+
+
 <!-- ======= About Section ======= -->
 <section id="about" class="about">
   <div class="container" data-aos="fade-up">
 
     <div class="row position-relative">
 
-      <div class="col-lg-7 about-img" style="background-image: url(assets/img/about.jpg);"></div>
-
+      <!-- Text Content Column -->
       <div class="col-lg-7">
         <h2>Lugazi Rural Financial Development Trust</h2>
         <div class="our-story">
@@ -33,18 +34,19 @@
             <li><i class="bi bi-check-circle"></i> <span>MUWRP Health Promotion: Sensitization and awareness initiatives on health-related issues.</span></li>
           </ul>
           <p>Collaboration with various stakeholders and partners further amplified our impact. LRFDT is committed to creating lasting change and uplifting rural communities in Uganda.</p>
-
-          <div class="watch-video d-flex align-items-center position-relative">
-            <i class="bi bi-play-circle"></i>
-            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox stretched-link">Watch Vid</a>
-          </div>
         </div>
-      </div>
+      </div><!-- End Text Content Column -->
 
-    </div>
+      <!-- Image Column (Order 2 on large screens) -->
+      <div class="col-lg-5 order-lg-2 text-center">
+        <img src="{{ asset('img/content/about.jpg') }}" alt="" style="width: auto; height: auto;">
+      </div><!-- End Image Column -->
 
-  </div>
-</section>
+    </div><!-- End Row -->
+
+  </div><!-- End Container -->
+</section><!-- End About Section -->
+
 <!-- End About Section -->
 
 <!-- ======= Stats Counter Section ======= -->
@@ -105,7 +107,7 @@
   <div class="container" data-aos="fade-up">
 
     <div class="row justify-content-around gy-4">
-      <div class="col-lg-6 img-bg" style="background-image: url(assets/img/alt-services.jpg);" data-aos="zoom-in" data-aos-delay="100"></div>
+    <div class="col-lg-6 img-bg" style="background-image: url({{ asset('img/content/IMG-20230316-WA0004.jpg') }});" data-aos="zoom-in" data-aos-delay="100"></div>
 
       <div class="col-lg-5 d-flex flex-column justify-content-center">
         <h3>Our Vision and Mission</h3>
@@ -178,10 +180,15 @@
         </div><!-- End Icon Box -->
       </div>
 
-      <div class="col-lg-6 img-bg" style="background-image: url(assets/img/alt-services-2.jpg);" data-aos="zoom-in" data-aos-delay="100"></div>
-    </div>
-
+      
+    <div class="col-lg-6 order-1 order-lg-2 text-center">
+      
+                <img src="{{ asset('img/content/20240209_145605.jpg') }}" alt="" style="width: 800px; height: 650px;">
   </div>
+    </div>
+     
+  </div>
+ 
 </section><!-- End Alt Services Section 2 -->
 
 <!-- ======= Our Team Section ======= -->
@@ -246,23 +253,7 @@
         </div>
       </div><!-- End Team Member -->
 
-      <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
-        <div class="member-img">
-          <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-          <div class="social">
-            <a href="#"><i class="bi bi-twitter"></i></a>
-            <a href="#"><i class="bi bi-facebook"></i></a>
-            <a href="#"><i class="bi bi-instagram"></i></a>
-            <a href="#"><i class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
-        <div class="member-info text-center">
-          <h4>MR. RONALD SSOZI</h4>
-          <span>FINANCE OFFICER</span>
-          <p>Managing LRFDT's finances with transparency and accountability. Your support ensures resources go where they're needed most.</p>
-        </div>
-      </div><!-- End Team Member -->
-
+      
       <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
         <div class="member-img">
           <img src="img/team/mosesluyomby.png" class="img-fluid" alt="">
