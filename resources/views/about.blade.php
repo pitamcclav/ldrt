@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="breadcrumbs d-flex align-items-center" style="background-image: url('{{ asset('img/content/20240209_145605.jpg') }}'); background-size: cover; background-position: center;">
+<div class="breadcrumbs d-flex align-items-center" style="background-image: url({{ asset('img/content/IMG-20230316-WA0004.jpg') }});">
   <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
     <h2>About</h2>
@@ -21,7 +21,8 @@
 
     <div class="row position-relative">
 
-      <!-- Text Content Column -->
+      <div class="col-lg-7 about-img" style="background-image: url({{ asset('img/content/IMG-20221007-WA0003.jpg') }});"></div>
+
       <div class="col-lg-7">
         <h2>Lugazi Rural Financial Development Trust</h2>
         <div class="our-story">
