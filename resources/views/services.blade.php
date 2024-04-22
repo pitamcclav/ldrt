@@ -28,7 +28,7 @@
             </div>
             <h3>sustainable Agriculture initiatives</h3>
             <p>Our sustainable agriculture programs are designed to boost food security, increase income opportunities, and promote sustainable livelihoods. We provide training in modern farming techniques and agro-processing, enabling community members to improve their agricultural practices.</p>
-            <p>Learn more <i class="bi bi-arrow-right"></i></p>
+            
           </div>
         </div><!-- End Service Item -->
 
@@ -39,7 +39,7 @@
             </div>
             <h3>Environmental Protection Activities</h3>
             <p>We are dedicated to protecting the environment through various initiatives, including tree planting, waste management, and conservation efforts. Our goal is to create a cleaner, healthier environment for the community while fostering sustainable practices.</p>
-            <p>Learn more <i class="bi bi-arrow-right"></i></p>
+            
           </div>
         </div><!-- End Service Item -->
 
@@ -61,7 +61,7 @@
             </div>
             <h3>Child Protection and Reproductive Health</h3>
             <p>LRFDT is deeply committed to safeguarding the rights and well-being of children in the community. In addition to child protection initiatives, we provide essential reproductive health education, counseling, and support, ensuring that the most vulnerable members of our community receive the care and protection they deserve.</p>
-            <p>Learn more <i class="bi bi-arrow-right"></i></p>
+            
           </div>
         </div><!-- End Service Item -->
 
@@ -72,7 +72,7 @@
             </div>
             <h3>Collaboration and Partnerships</h3>
             <p>We understand that working together is essential for community development. LRFDT collaborates with community leadership structures, academic institutions, local organizations, and various stakeholders. By building strong partnerships, we maximize our impact and align our efforts toward the common goal of rural community self-sustainability.</p>
-            <p> more <i class="bi bi-arrow-right"></i></p>
+            
           </div>
         </div><!-- End Service Item -->
 
@@ -83,7 +83,7 @@
             </div>
             <h3>Capacity Building of Community-Based Groups</h3>
             <p>Empowering community-based groups, including women's groups, youth groups, and people with disabilities, is a fundamental aspect of our work. Capacity building initiatives help these groups contribute effectively to community development and take charge of their own progress.</p>
-            Learn more <i class="bi bi-arrow-right"></i>
+            
           </div>
         </div><!-- End Service Item -->
 

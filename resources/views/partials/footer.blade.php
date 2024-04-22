@@ -11,7 +11,7 @@
                 P.O.Box 101,Lugazi <br>
                 +256 704 372685<br><br>
                 <strong>Phone:</strong> +256 772697875<br>
-                <strong>Email:</strong> info@lrdt.com<br>
+                <strong>Email:</strong> lugazirfdt@gmail.com<br>
               </p>
               <div class="social-links d-flex mt-3">
                 <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>

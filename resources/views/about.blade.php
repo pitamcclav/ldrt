@@ -22,7 +22,7 @@
     <div class="row position-relative">
 
       {{-- <div class="col-lg-7 about-img" style="background-image: url({{ asset('img/content/IMG-20221007-WA0003.jpg') }});"></div> --}}
-      <h2>Lugazi Rural Financial Development Trust</h2>
+      <h2>Lugazi Rural Finance Development Trust</h2>
       <div class="col-lg-6">
         
         <div class="our-story">
@@ -206,12 +206,12 @@
       <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
         <div class="member-img">
           <img src="img/team/harriet.jpg" class="img-fluid" alt="">
-          <div class="social">
+          {{-- <div class="social">
             <a href="#"><i class="bi bi-twitter"></i></a>
             <a href="#"><i class="bi bi-facebook"></i></a>
             <a href="#"><i class="bi bi-instagram"></i></a>
             <a href="#"><i class="bi bi-linkedin"></i></a>
-          </div>
+          </div> --}}
         </div>
         <div class="member-info text-center">
           <h4>MS. OLIVIA MAKUMBI</h4>
@@ -223,12 +223,12 @@
       <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
         <div class="member-img">
           <img src="img/team/grace.png" class="img-fluid" alt="">
-          <div class="social">
+          {{-- <div class="social">
             <a href="#"><i class="bi bi-twitter"></i></a>
             <a href="#"><i class="bi bi-facebook"></i></a>
             <a href="#"><i class="bi bi-instagram"></i></a>
             <a href="#"><i class="bi bi-linkedin"></i></a>
-          </div>
+          </div> --}}
         </div>
         <div class="member-info text-center">
           <h4>MS. GRACE WANDYAKA</h4>
@@ -240,12 +240,12 @@
       <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
         <div class="member-img">
           <img src="img/team/mbogarobert.jpg" class="img-fluid" alt="">
-          <div class="social">
+          {{-- <div class="social">
             <a href="#"><i class="bi bi-twitter"></i></a>
             <a href="#"><i class="bi bi-facebook"></i></a>
             <a href="#"><i class="bi bi-instagram"></i></a>
             <a href="#"><i class="bi bi-linkedin"></i></a>
-          </div>
+          </div> --}}
         </div>
         <div class="member-info text-center">
           <h4>MR. ROBERT MBOGGA</h4>
@@ -258,12 +258,12 @@
       <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
         <div class="member-img">
           <img src="img/team/mosesluyomby.png" class="img-fluid" alt="">
-          <div class="social">
+          {{-- <div class="social">
             <a href="#"><i class="bi bi-twitter"></i></a>
             <a href="#"><i class="bi bi-facebook"></i></a>
             <a href="#"><i class="bi bi-instagram"></i></a>
             <a href="#"><i class="bi bi-linkedin"></i></a>
-          </div>
+          </div> --}}
         </div>
         <div class="member-info text-center">
           <h4>MR. MOSES LUYOMBYA</h4>
@@ -275,12 +275,12 @@
       <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
         <div class="member-img">
           <img src="img/team/nsubugaarthur.jpg" class="img-fluid" alt="">
-          <div class="social">
+          {{-- <div class="social">
             <a href="#"><i class="bi bi-twitter"></i></a>
             <a href="#"><i class="bi bi-facebook"></i></a>
             <a href="#"><i class="bi bi-instagram"></i></a>
             <a href="#"><i class="bi bi-linkedin"></i></a>
-          </div>
+          </div> --}}
         </div>
         <div class="member-info text-center">
           <h4>MR. ARTHUR NSUBUGA</h4>

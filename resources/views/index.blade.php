@@ -7,7 +7,7 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6 text-center">
-            <h2 data-aos="fade-down">Welcome to <span> Lugazi Rural Financial Development Trust</span></h2>
+            <h2 data-aos="fade-down">Welcome to <span> Lugazi Rural Finance Development Trust</span></h2>
             <p data-aos="fade-up">LRFDT is committed to uplifting Uganda's rural communities. Our mission is to empower, enable productivity, and promote self-sufficiency in these areas. We firmly believe that collaborative, sustainable practices will bring a positive transformation to those most in need.</p>
             <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">Get Started</a>
           </div>
