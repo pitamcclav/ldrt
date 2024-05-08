@@ -110,7 +110,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url({{ asset('img/content/IMG-20220917-WA0011.jpg') }});"></div>
+                  <div class="card-bg" style="background-image: url(img/content/IMG-20220917-WA0011.jpg);"></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -440,7 +440,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-design">
               <div class="portfolio-content h-100">
-                <img src="{{ asset('img\content\feature-2.jpg') }}" class="img-fluid" alt="">
+                <img src="{{ asset('img\content\features-2.jpg') }}" class="img-fluid" alt="">
               </div>
             </div><!-- End Projects Item -->
             <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
@@ -494,7 +494,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
               <div class="portfolio-content h-100">
-                <img src="asset/img/projects/repairs-3.jpg" class="img-fluid" alt="">
+                <img src="img/content/repairs-3.jpg" class="img-fluid" alt="">
               </div>
             </div><!-- End Projects Item -->
 
@@ -538,7 +538,7 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <img src="asset/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                  <img src="img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
                   <h3>Mulondo Patrick</h3>
                   <h4>Ceo &amp; Founder</h4>
                   <div class="stars">
@@ -556,7 +556,7 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <img src="asset/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                  <img src="img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
                   <h3>Kasule Fred</h3>
                   <h4>Farmer</h4>
                   <div class="stars">
@@ -574,7 +574,7 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <img src="asset/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                  <img src="img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
                   <h3>Ssentongo Hassan</h3>
                   <h4>Teacher</h4>
                   <div class="stars">
@@ -592,7 +592,7 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <img src="asset/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                  <img src="img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
                   <h3>Mawanda Kato Joseph</h3>
                   <h4>Carpenter</h4>
                   <div class="stars">
@@ -610,7 +610,7 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <img src="asset/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                  <img src="img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
                   <h3>Fr. Joseph Male</h3>
                   <h4>Priest</h4>
                   <div class="stars">

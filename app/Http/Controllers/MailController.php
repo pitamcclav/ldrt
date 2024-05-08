@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Mail;
 
 class MailController extends Controller
 {
-    public $reciever = "ssekitoolekopeterclaver@gmail.com";
+    public $reciever = "info@lrfdt.org";
     public $senderMessage = "Your message has been recieved, we will get back to you soon. Thank you for contacting us.";
 
     //

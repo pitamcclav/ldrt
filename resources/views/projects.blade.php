@@ -138,11 +138,11 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-design">
               <div class="portfolio-content h-100">
-                <img src="{{ asset('img\content\features-1.jpg') }}" class="img-fluid" alt="">
+                <img src="img\content\features-1.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Education</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="{{ asset('img\content\img\content\features-1.jpg') }}" title="Education" data-gallery="portfolio-gallery-book" class="glightbox preview-link"></a>
+                  <a href="{{ asset('img\content\features-1.jpg') }}" title="Education" data-gallery="portfolio-gallery-book" class="glightbox preview-link"></a>
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -154,7 +154,7 @@
                   <h4>Education</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
                   <a href="{{ asset('img\content\img\content\repairs-1.jpg') }}" title="Education" data-gallery="portfolio-gallery-book" class="glightbox preview-link"></a>
-                </div>
+                </div>  
               </div>
             </div><!-- End Projects Item -->
             <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
@@ -192,7 +192,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
               <div class="portfolio-content h-100">
-                <img src="{{ asset('asset/img/projects/repairs-3.jpg') }}" class="img-fluid" alt="">
+                <img src="{{ asset('img/content/repairs-3.jpg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Financial</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -247,22 +247,22 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
               <div class="portfolio-content h-100">
-                <img src="asset/img/projects/repairs-3.jpg" class="img-fluid" alt="">
+                <img src="img/content/repairs-3.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Financial</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="asset/img/projects/repairs-3.jpg" title="Financial" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"></a>
+                  <a href="img/content/repairs-3.jpg" title="Financial" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"></a>
                 </div>
               </div>
             </div><!-- End Projects Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
               <div class="portfolio-content h-100">
-                <img src="img\content\20230324_120440.jpg" class="img-fluid" alt="">
+                <img src="img/content/20230324_120440.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Financial</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="img\content\20230324_120440.jpg" title="Financial" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"></a>
+                  <a href="img/content/20230324_120440.jpg" title="Financial" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"></a>
                  
                 </div>
               </div>
@@ -270,11 +270,11 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-design">
               <div class="portfolio-content h-100">
-                <img src="img\content\design-3.jpg" class="img-fluid" alt="">
+                <img src="img/content/design-3.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4> EDUCATION</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="img\content\design-3.jpg" title="Education" data-gallery="portfolio-gallery-book" class="glightbox preview-link"></i></a>
+                  <a href="img/content/design-3.jpg" title="Education" data-gallery="portfolio-gallery-book" class="glightbox preview-link"></i></a>
                 </div>
               </div>
             </div><!-- End Projects Item -->
