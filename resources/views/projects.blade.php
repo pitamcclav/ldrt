@@ -302,7 +302,7 @@
             </div>
             <h3>SDG 1: No Poverty</h3>
             <p>Our financial management programs, vocational training, and savings and credit schemes are designed to empower individuals with the tools to break the cycle of poverty and achieve economic independence.</p>
-            <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+            {{-- <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a> --}}
           </div>
         </div><!-- End Service Item -->
 
@@ -313,7 +313,7 @@
             </div>
             <h3>SDG 2: Zero Hunger</h3>
             <p>Our sustainable agriculture initiatives and agro-processing programs enhance food security, promote better nutrition, and reduce hunger in the communities we support.</p>
-            <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+            {{-- <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a> --}}
           </div>
         </div><!-- End Service Item -->
 
@@ -325,7 +325,7 @@
             </div>
             <h3>SDG 3: Good Health and Well-Being</h3>
             <p>Our work in child protection, reproductive health, and traditional medicinal plant conservation contributes to improved health and well-being for community members, ensuring access to essential care.</p>
-            <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+            {{-- <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a> --}}
           </div>
         </div><!-- End Service Item -->
 
@@ -336,7 +336,7 @@
             </div>
             <h3>SDG 4: Quality Education</h3>
             <p>LRFDT's commitment to scholarships, vocational skills training, and school construction supports the goal of providing quality education and enhancing access to learning opportunities.</p>
-            <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+            {{-- <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a> --}}
           </div>
         </div><!-- End Service Item -->
 
@@ -347,7 +347,7 @@
             </div>
             <h3>SDG 8: Decent Work and Economic Growth</h3>
             <p>Our programs in financial management, vocational training, and income-generating activities create economic opportunities and foster decent work, promoting sustainable economic growth</p>
-            <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+            {{-- <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a> --}}
           </div>
         </div><!-- End Service Item -->
 
@@ -358,7 +358,7 @@
             </div>
             <h3>SDG 15: Life on Land</h3>
             <p>Our efforts in tree planting and the conservation of traditional medicinal plants support the preservation of terrestrial ecosystems and the protection of life on land.</p>
-            <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+            {{-- <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a> --}}
           </div>
         </div><!-- End Service Item -->
 
